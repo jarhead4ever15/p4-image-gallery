@@ -26,11 +26,17 @@
   background: #4d87e2;
 }
 .gallery .controls {
+  background: red;
   position: absolute;
-  bottom: 0;
+  bottom: -120px;
   width: 100%;
   text-align: center;
 }
+
+.gallery .controls img {
+  border: 5px solid #000;
+}
+
 .gallery .control-button {
   display: inline-block;
   margin: 0 .02em;
